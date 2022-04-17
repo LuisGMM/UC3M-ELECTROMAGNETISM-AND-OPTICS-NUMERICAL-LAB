@@ -117,7 +117,6 @@ def algorithm(V:np.array, M_X:int = M_X, M_Y:int = M_Y, M_Z:int = M_Z, r_tol:flo
         if max_error < r_tol:             
             return ans
         
-        print(iter, max_error)
         max_error = 0
 
         
